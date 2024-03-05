@@ -6,7 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="${pageContext.request.contextPath}/delete">
+	<form action="/guestbook6/delete">
 		<table>
 			<tr>
 				<td>비밀번호</td>

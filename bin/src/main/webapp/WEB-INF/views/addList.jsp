@@ -9,7 +9,7 @@
 
 </head>
 <body>
-	<form action="${pageContext.request.contextPath}/register">
+	<form action="/guestbook6/register">
 		<table border="1" width="540px">
 			<tr>
 				<td>이름</td>
@@ -33,7 +33,7 @@
 			<td>${guestVo.no}</td>
 			<td>${guestVo.name}</td>
 			<td>${guestVo.reg_date}</td>
-			<td><a href="${pageContext.request.contextPath}/dform?no=${guestVo.no}">삭제</a></td>
+			<td><a href="/guestbook6/dform?no=${guestVo.no}">삭제</a></td>
 		</tr>
 		<tr>
 			<td colspan="4">${guestVo.content}</td>
